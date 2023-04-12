@@ -51,7 +51,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             return true;
         }
     }
-
     public List<StudentMod> getEveryone(){
         List<StudentMod> returnList = new ArrayList<>();
         // get data from database
